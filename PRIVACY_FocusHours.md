@@ -1,4 +1,4 @@
-# Privacy Policy — Hide morning in Calendar
+# Privacy Policy — Focus Hours
 
 **Last updated:** 2026-05-21
 **Effective date:** 2026-05-21
@@ -8,7 +8,7 @@
 ## 한국어
 
 ### 개요
-**Hide morning in Calendar** (이하 "본 확장")은 Google Calendar 주간 보기에서 아침 시간대를 숨기는 Chrome 확장 프로그램입니다. 본 확장은 사용자의 **개인정보를 수집하지 않으며 외부로 전송하지 않습니다.**
+**Focus Hours** (이하 "본 확장")은 Google Calendar 에서 그래버를 드래그하여 아침/저녁 시간대를 숨기는 Chrome 확장 프로그램입니다. 본 확장은 사용자의 **개인정보를 수집하지 않으며 외부로 전송하지 않습니다.**
 
 ### 수집·전송하는 데이터
 - **수집하는 개인정보**: 없음
@@ -20,9 +20,10 @@
 ### 로컬에 저장되는 항목
 다음 설정값은 사용자의 브라우저 내 `chrome.storage.local`에만 저장됩니다. 본 확장 외에는 어떤 주체도 이 값을 읽거나 전송하지 않습니다.
 
-- 하루 시작 시간 (start time)
-- 수면 시간 (sleep duration)
-- Bedtime Coach 활성화 여부
+- 아침 그래버 위치 (`startDayTime`)
+- 저녁 그래버 위치 (`endDayTime`)
+- 확장 기능 사용 여부 (`extensionEnabled`)
+- 저녁 그래버 사용 여부 (`eveningGrabberEnabled`)
 
 해당 데이터는 확장 프로그램을 제거하면 함께 삭제됩니다.
 
@@ -48,7 +49,7 @@
 ## English
 
 ### Overview
-**Hide morning in Calendar** (the "Extension") is a Chrome extension that hides early-morning hours in the Google Calendar weekly view. The Extension **does not collect any personal data, and does not transmit any data to external servers.**
+**Focus Hours** (the "Extension") is a Chrome extension that lets users drag grabbers to hide early-morning and late-evening hours in Google Calendar. The Extension **does not collect any personal data, and does not transmit any data to external servers.**
 
 ### Data we collect or transmit
 - **Personal information collected**: None
@@ -60,9 +61,10 @@
 ### Data stored locally
 The following user preferences are stored only inside the user's browser via `chrome.storage.local`. No party other than the Extension itself reads or transmits these values.
 
-- Day start time
-- Sleep duration
-- Bedtime Coach enabled / disabled
+- Morning grabber position (`startDayTime`)
+- Evening grabber position (`endDayTime`)
+- Whether the extension is enabled (`extensionEnabled`)
+- Whether the evening grabber is enabled (`eveningGrabberEnabled`)
 
 This data is removed when the user uninstalls the Extension.
 
